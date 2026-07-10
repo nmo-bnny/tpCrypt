@@ -1,2 +1,10 @@
 # tpCrypt
-Tool for decrypting traffic from my TP-Link A54 router (fw 0.9.1). Compatible with any AES-CBC encryption when the key, IV, and encrypted payload are available. A future walkthrough will cover session hijacking techniques using the tool.  Provided for educational and authorized security research only. Use only on systems and networks you own.
+Tool for decrypting AES-CBC traffic.
+
+# Files
+tpCrypt.py - tool used to decrypt AES encrypted data
+tpCryptExample - displays an encrypted packet decrypted to show how it is supposed to look like
+
+# How To Use
+python3 tpCrypt.py
+python3 tpCryptExample.py
